@@ -56,7 +56,7 @@ ASR systems often struggle with:
 
 ## Results Summary
 
-| Model | Sentence Accuracy (%) | Word Accuracy (%) | Noun Accuracy (%) | CER (%) |
+| Model |Perfect Sentence Accuracy (%) | Word Accuracy (%) | Noun Accuracy (%) | CER (%) |
 |-------|----------------------|-------------------|-------------------|---------|
 | Levenshtein (Baseline) | 7.00 | 68.64 | 73.93 | 4.00 |
 | N-gram (Baseline) | 6.53 | 68.53 | 73.52 | 4.19 |
