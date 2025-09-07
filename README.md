@@ -142,13 +142,9 @@ python -m spacy download en_core_web_sm
 
 Sai Chiranthan H M
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
-- Assignment provided by [Augnito AI]
+- Assignment along with dataset provided by [Augnito AI]
 - SciFive model by [razent/SciFive-base-Pubmed_PMC]
 - Hugging Face Transformers library
 - spaCy for NLP processing
