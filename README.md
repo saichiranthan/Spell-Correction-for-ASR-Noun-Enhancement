@@ -78,13 +78,8 @@ ASR systems often struggle with:
 │   ├── 01_Data_Exploration_and_Preprocessing.ipynb
 │   ├── 02_Baseline_Model.ipynb
 │   ├── 03_Advanced_Model_T5.ipynb
-│   └── 04_Final_Evaluation_and_Analysis.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── baseline_models.py
-│   ├── advanced_models.py
-│   └── evaluation.py
-├── requirements.txt
+│   ├── 04_Final_Evaluation_and_Analysis.ipynb
+│   └── requirements.txt
 └── README.md
 ```
 
