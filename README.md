@@ -184,7 +184,7 @@ trainer, model_path = train_t5_model(
 ## Future Improvements
 
 - [ ] Apply data augmentation (synthetic noise injection, phonetic similarity errors) to improve robustness.
-- [ ] Explore larger transformer models (e.g., T5-large, BioT5, GPT-style models) to test scalability and performance gains.
+- [ ] Explore larger transformer models (e.g., T5-large, ClinicalT5, GPT-style models) to test scalability and performance gains.
 - [ ] Implement confidence scoring for corrections
 - [ ] Experiment with reinforcement learning or constrained decoding to prioritize correct noun predictions
 
