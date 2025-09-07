@@ -107,51 +107,6 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-## Usage
-
-### Running the Complete Pipeline
-
-1. **Data Preprocessing**
-```python
-from src.data_preprocessing import preprocess_data
-train_df, val_df, test_df = preprocess_data('dataset/raw_data.xlsx')
-```
-
-2. **Baseline Models**
-```python
-from src.baseline_models import LevenshteinCorrector, NgramCorrector
-
-# Levenshtein correction
-corrector = LevenshteinCorrector(vocabulary)
-corrected_text = corrector.correct_sentence("misspeled text")
-
-# N-gram correction
-ngram_corrector = NgramCorrector(vocabulary, bigram_counts)
-corrected_text = ngram_corrector.correct_sentence("misspeled text")
-```
-
-3. **Advanced Models**
-```python
-from src.advanced_models import T5Corrector
-
-# Load fine-tuned model
-corrector = T5Corrector('models/SciFive-base-results/best_model')
-corrected_text = corrector.correct("misspeled medical text")
-```
-
-### Training Custom Models
-
-```python
-# Train T5 model
-from src.advanced_models import train_t5_model
-
-trainer, model_path = train_t5_model(
-    model_checkpoint="t5-base",
-    train_dataset=train_ds,
-    val_dataset=val_ds,
-    output_dir="models/custom_t5"
-)
-```
 
 ## Evaluation Metrics
 
