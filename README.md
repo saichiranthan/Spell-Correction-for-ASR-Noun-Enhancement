@@ -144,7 +144,6 @@ Sai Chiranthan H M
 
 ## Acknowledgments
 
-- Assignment along with dataset provided by [Augnito AI]
 - SciFive model by [razent/SciFive-base-Pubmed_PMC]
 - Hugging Face Transformers library
 - spaCy for NLP processing
